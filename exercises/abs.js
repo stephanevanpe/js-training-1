@@ -11,7 +11,11 @@
 
 // Your code :
 function abs (num){
-    return (Math.abs(num));
+    if (num >= 0) { 
+        return num;
+    } else {
+    return -num;
+    }
 }
 
 //* Begin of tests

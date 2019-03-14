@@ -9,12 +9,8 @@
 
 // Your code :
 function sameSign(num, num1) {
-    if (num >= 0 && num1>=0) {
+    if ((num > 0 && num1 > 0) || ((num < 0 && num1 < 0)) || num===num1){
         return true;
-    }else if (num<=0 && num1<=0){
-        return true;
-    } else if (num<0<num1){
-        return false;
     }else {
         return false;
     }

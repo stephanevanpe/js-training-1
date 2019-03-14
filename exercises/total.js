@@ -5,6 +5,10 @@
  * and return the total
  *
  */
+function total(array){
+    
+    return array.reduce((accumulator, currentValue) => accumulator + currentValue);
+}
 
 
 //* Begin of tests

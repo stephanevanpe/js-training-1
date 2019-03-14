@@ -9,7 +9,15 @@
  */
 
 // Your code :
+let total = 0
+function multiply(num, num1){
 
+    for(let i=0; i<num; i++){
+        total= total+num1;
+    }
+      
+}
+return total
 //* Begin of tests
 const assert = require('assert')
 

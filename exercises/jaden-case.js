@@ -9,6 +9,8 @@
  * Example : "How are you ?" -> "How Are You ?"
  *
  */
+let jadenCase ='string';
+return (jadenCase.charAt(0).toUpperCase() + jadenCase.substring(1).toLowerCase());
 
 
 

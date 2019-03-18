@@ -11,12 +11,15 @@
 // Your code :
 let total = 0
 function multiply(num, num1){
-
+    // console.log('je suis hors de la boucle ' + num);
     for(let i=0; i<num; i++){
+        // console.log('je suis dans la boucle ' + num);
         total= total+num1;
     }
       
 }
+console.log('je suis le total ' + total);
+multiply(-22, 123);
 return total
 //* Begin of tests
 const assert = require('assert')
